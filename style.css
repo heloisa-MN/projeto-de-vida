@@ -31,7 +31,7 @@ width: 100%;
 font-size: 32px;
 }
 
-.titulo-principal span {
+.titulo-principal span{
     color: var(--verde);
 }
 
@@ -44,5 +44,6 @@ font-size: 32px;
     padding: 1em;
     font-size: 18px;
     align-items: center;
+    width: 100%;
 }
 
