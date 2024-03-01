@@ -14,9 +14,7 @@ for (let i = 0; i < botoes.length; i++) {
     }
 }
 //* contador aqui
-const contadores = document.querySelectorAll(".contador");
+const contadores = document.querySelectorAll(".contador"); 
 const tempoObjetivo1 = new Date("2024-10-05"); 
 
-/* lista de contador */
-contadores[0].textContent = "Contagem regressiva";
-
+contadores[0].textContent = tempo0bjetivo1; 
