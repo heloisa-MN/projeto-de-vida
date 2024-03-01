@@ -13,3 +13,10 @@ for (let i = 0; i < botoes.length; i++) {
         textos[i].classList.add("ativo");
     }
 }
+//* contador aqui
+const contadores = document.querySelectorAll(".contador");
+const tempoObjetivo1 = new Date("2024-10-05"); 
+
+/* lista de contador */
+contadores[0].textContent = "Contagem regressiva";
+
