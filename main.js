@@ -23,8 +23,10 @@ contadores[0].textContent = calculaTempo(tempoObjetivo1);
 contadores[0].textContent = calculaTempo(tempoObjetivo1);
 
 function calculaTempo(tempoObjetivo) {
-  let tempoAtual = new Date();
-  let tempoFinal = tempoObjetivo - tempoAtual;
-  let segundos = tempoFinal / 1000;
-  return segundos;
-}
+    let tempoAtual = new Date();
+    let tempoFinal = tempoObjetivo - tempoAtual;
+    let segundos = Math.floor(tempoFinal / 1000);
+    let minutos = Math.floor(segundos / 60);
+    return minutos;
+  }
+  
